@@ -16,6 +16,7 @@
 @media screen and (max-width: 1024px) {
     .page-header .mdl-layout__header-row {
         height: auto;
+        padding: 0 16px;
     }
 }
 
@@ -65,4 +66,8 @@ label.mdl-radio + label.mdl-radio {
 }
 .page-form .form-card + .form-card {
     margin-top: 1em;
+}
+
+.page-form .form-card-wide {
+    width: 100%;
 }
