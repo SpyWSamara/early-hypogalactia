@@ -71,3 +71,7 @@ label.mdl-radio + label.mdl-radio {
 .page-form .form-card-wide {
     width: 100%;
 }
+
+.page-form .form-card .mdl-card__actions {
+    padding: 8px 16px;
+}
