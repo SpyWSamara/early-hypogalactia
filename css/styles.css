@@ -75,3 +75,13 @@ label.mdl-radio + label.mdl-radio {
 .page-form .form-card .mdl-card__actions {
     padding: 8px 16px;
 }
+
+.result-card-wide {
+    width:  100%;
+    margin-top: 2em;
+    min-height: 10px;
+}
+.result-card-wide .result-percent, .result-card-wide .result-string {
+    margin-left: 1em;
+    font-weight: bold;
+}

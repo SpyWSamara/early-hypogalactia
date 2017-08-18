@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Расчет вероятности ранней гипогалактии">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Расчет вероятности ранней гипогалактии</title>
+    <title>Программа прогнозирования, ранней диагностики и профилактики нарушений становления лактационной функции у женщин группы высокого риска</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
@@ -19,7 +19,7 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="page-header mdl-layout__header mdl-layout__header--scroll">
             <div class="mdl-layout__header-row">
-                <h1 class="mdl-layout__title">Расчет вероятности ранней гипогалактии</h1>
+                <h1 class="mdl-layout__title">Программа прогнозирования, ранней диагностики и профилактики нарушений становления лактационной функции у женщин группы высокого риска</h1>
             </div>
         </header>
         <div class="page-ribbon mdl-layout__header"></div>
@@ -63,8 +63,8 @@
                             </div>
                             <div class="mdl-card__actions">
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="number" step="any" id="fno-a" name="fno-a">
-                                    <label class="mdl-textfield__label" for="fno-a">(пг/мл)</label>
+                                    <input class="mdl-textfield__input" type="number" step="any" id="fnoa" name="fnoa">
+                                    <label class="mdl-textfield__label" for="fnoa">(пг/мл)</label>
                                     <span class="mdl-textfield__error">Введите число</span>
                                 </div>
                             </div>
@@ -124,12 +124,22 @@
                             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Расчет</button>
                         </div>
                     </form>
+                    <div class="form-card mdl-card mdl-shadow--6dp result-card-wide hidden" id="result">
+                        <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Вероятность
+                                    <span class="result-percent"></span>,
+                                    <span class="result-string"></span>
+                                </h2>
+                        </div>
+                        <div class="mdl-card__supporting-text result-recomendation"></div>
+                    </div>
                 </div>
                 <div class="mdl-cell mdl-cell--2-col mdl-cell--hide-tablet mdl-cell--hide-phone"></div>
             </div>
         </main>
         <footer class="page-footer mdl-mini-footer">
             <div class="mdl-mini-footer--left-section">
+                <p>Коллектив авторов: Приходько А.В., Тезиков Ю.В., Липатов И.С., Тезикова Т.А., Мартынова Н.А.</p>
                 <div class="mdl-logo">Самара, 2017</div>
             </div>
         </footer>
